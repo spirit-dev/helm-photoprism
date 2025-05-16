@@ -17,3 +17,13 @@ The installation should be done in two steps:
 #> make dry-run ENV=<ENV>
 #> make install ENV=<ENV>
 ```
+
+## Cli options
+
+Some commands like user management will be available via CLI
+
+1. Jump in a photoprism pod `kex <pod> -n ns sh`
+
+2. Execute cli commands: `photoprism help` for more information.
+
+Documentation [available here](https://docs.photoprism.app/user-guide/users/cli/)
