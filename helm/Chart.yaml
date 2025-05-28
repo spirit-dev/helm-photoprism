@@ -1,0 +1,25 @@
+apiVersion: v2
+name: photoprism
+description: A Photoprism Helm chart for Kubernetes
+home: https://photoprism.org/
+sources:
+  - https://github.com/photoprism/photoprism
+dependencies:
+  - name: photoprism
+    repository: https://p80n.github.io/photoprism-helm/
+    version: 1.4.0
+    alias: photoprism-app
+  - name: mariadb
+    repository: https://charts.bitnami.com/bitnami
+    version: 20.0.0
+    alias: photoprism-db
+
+type: application
+
+version: 1.4.0
+
+appVersion: "250321"
+
+keywords:
+  - photo
+  - photoprism
