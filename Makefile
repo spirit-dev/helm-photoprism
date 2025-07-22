@@ -2,7 +2,7 @@
 
 # Service
 NAMESPACE = media
-RELEASE_NAME = photoprism
+RELEASE_NAME = photoprism-turingpi
 # ENV ?= ### Specify the env to use
 ENV = turingpi
 pod := $$(kubectl get pods -n ${NAMESPACE} |  grep -m1 ${RELEASE_NAME} | cut -d' ' -f1)
