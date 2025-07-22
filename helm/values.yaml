@@ -78,7 +78,7 @@ photoprism-app:
     tls:
       - hosts:
           - my.domain.com
-        secretName: photoprism-cert
+        secretName: photoprism-cert # pragma: allowlist secret
 
   # securityContext:
   #   fsGroup: 100
