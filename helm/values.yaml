@@ -222,7 +222,7 @@ photoprism-db:
   image:
     registry: docker.io
     repository: bitnami/mariadb
-    tag: 11.4.4-debian-12-r0
+    tag: 11.8.3-debian-12-r0
     digest: ""
     ## Specify a imagePullPolicy
     ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
@@ -1320,7 +1320,7 @@ photoprism-db:
     image:
       registry: docker.io
       repository: bitnami/os-shell
-      tag: 12-debian-12-r32
+      tag: 12-debian-12-r51
       digest: ""
       pullPolicy: IfNotPresent
       ## Optionally specify an array of imagePullSecrets (secrets must be manually created in the namespace)
@@ -1364,7 +1364,7 @@ photoprism-db:
     image:
       registry: docker.io
       repository: bitnami/mysqld-exporter
-      tag: 0.15.1-debian-12-r36
+      tag: 0.17.2-debian-12-r16
       digest: ""
       pullPolicy: IfNotPresent
       ## Optionally specify an array of imagePullSecrets (secrets must be manually created in the namespace)
