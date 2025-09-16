@@ -1,0 +1,9 @@
+dependencies:
+- name: photoprism
+  repository: https://p80n.github.io/photoprism-helm/
+  version: 2.0.0
+- name: mariadb
+  repository: https://charts.bitnami.com/bitnami
+  version: 22.0.0
+digest: sha256:acab4c70d28751474eb8cb5863098aadd3fd914745bc923beacf2c53bc60bbfb
+generated: "2025-09-14T01:03:45.639479399Z"
