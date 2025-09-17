@@ -7,11 +7,11 @@ sources:
 dependencies:
   - name: photoprism
     repository: https://p80n.github.io/photoprism-helm/
-    version: 1.4.0
+    version: 2.0.0
     alias: photoprism-app
   - name: mariadb
     repository: https://charts.bitnami.com/bitnami
-    version: 20.5.9
+    version: 22.0.0
     alias: photoprism-db
 
 type: application
