@@ -16,8 +16,10 @@ dependencies:
 
 type: application
 
-version: 1.4.0
+# renovate: datasource=helm depName=photoprism repository=https://p80n.github.io/photoprism-helm/
+version: "1.4.0"
 
+# renovate: datasource=github-releases depName=photoprism/photoprism
 appVersion: "250321"
 
 keywords:
