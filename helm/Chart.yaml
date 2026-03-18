@@ -11,7 +11,7 @@ dependencies:
     alias: photoprism-app
   - name: mariadb
     repository: https://charts.bitnami.com/bitnami
-    version: 25.0.1
+    version: 25.0.2
     alias: photoprism-db
 
 type: application
